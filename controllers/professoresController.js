@@ -1,34 +1,34 @@
 let professores = [
     {
     id: "1",
-    nome: "Prof. Carlos",
-    idade: 40,
-    departamento: "Matemática",
+    nome: "José Vasques",
+    idade: 46,
+    departamento: "Química",
     turmas: [
-    { codigo: "9A", disciplina: "MAT101", alunos: ["João", "Maria", "Pedro"] },
-    { codigo: "10A", disciplina: "MAT201", alunos: ["Ana", "Luiz"] }
+    { codigo: "3A", disciplina: "Quimica1", alunos: ["João Vitor", "Anna Clara", "Pedro Henrique"] },
+    { codigo: "3B", disciplina: "Quimica2", alunos: ["Mariana Mendes", "Gustavo Henrique", "Caique Fadel"] }
     ]
 },
     {
-    id: "2",
-    nome: "Prof. Ana",
-    idade: 35,
-    departamento: "História",
+        id: "2",
+        nome: "Natalia Valente",
+        idade: 41,
+        departamento: "Geografia",
+        turmas: [
+            { codigo: "2A", disciplina: "Geografia1", alunos: ["Julia Moraes", "Julia Lamare", "Luiza Coffani"] },
+            { codigo: "2B", disciplina: "Geografia2", alunos: ["Thifany Antunes", "Carolina Freitas", "Camila Souza"] }
+        ]
+    },
+
+    {id: "3",
+    nome: "Donizete Silva",
+    idade: 49,
+    departamento: "Matemática",
     turmas: [
-    { codigo: "9A", disciplina: "HIS101", alunos: ["João", "Pedro"] },
-    { codigo: "10B", disciplina: "HIS201", alunos: ["Maria", "Carlos", "Luiza"] }
-    ]
-},
-{
-    id: "3",
-    nome: "Prof. João",
-    idade: 50,
-    departamento: "Ciências",
-    turmas: [
-    { codigo: "9A", disciplina: "CIE101", alunos: ["João", "Maria"] },
-    { codigo: "9B", disciplina: "CIE101", alunos: ["Pedro", "Luiz"] }
-    ]
-}
+        { codigo: "1A", disciplina: "Matematica1", alunos: ["Vitoria Freitas", "Mateus Oliveira", "Rafaela Souza"] },
+        { codigo: "1B", disciplina: "Matematica2", alunos: ["Danielle Namie", "Melissa Yukari", "Gabriel Oliveira"] }
+        ]
+    }
 ];
 
 module.exports = {
